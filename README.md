@@ -12,7 +12,7 @@ two scripts that should be run.
 
 Running & Options
 ===========
-```Usage: python extract_inserts_mongostat.py mongostat-results.txt [option]"
+```Usage: python extract_inserts_mongostat.py mongostat-results.txt [option]
 	[option] = plot if one wants to plot OR
 	[option] = out_file.txt if one wants to save results```
 
@@ -25,7 +25,10 @@ script ```python plot_1D_functions.py``` as follows:
 		  --ylabel [label]
 		  --scaled - if present scale all the plots from 0 to 1
 		  --bar - plot the files as vertical bars
-		  --mean_window [size] - the size in which an average will be computed
-```
+		  --mean_window [size] - the size in which an average will be computed```
+
+Sample:
+![Alt text](https://raw.githubusercontent.com/rbsdev/mongostat_plotter/master/sample/huge_hour.png "Example of plotting inserts in mongoDB")
+
 
 Enjoy!
