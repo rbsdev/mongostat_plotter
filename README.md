@@ -12,9 +12,11 @@ two scripts that should be run.
 
 Running & Options
 ===========
-```Usage: python extract_inserts_mongostat.py mongostat-results.txt [option]
+```
+Usage: python extract_inserts_mongostat.py mongostat-results.txt [option]
 	[option] = plot if one wants to plot OR
-	[option] = out_file.txt if one wants to save results```
+	[option] = out_file.txt if one wants to save results
+```
 
 Being the output file called ```out_inserts.txt```, you can plot them using the
 script ```python plot_1D_functions.py``` as follows:
